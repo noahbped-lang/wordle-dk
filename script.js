@@ -8,9 +8,9 @@ document.addEventListener("keydown", (event) => {
                 document.getElementById("boks4").textContent + 
                 document.getElementById("boks5").textContent
         for (let i = 0; i < 5; i++) {
-            if (a[i] === "slået"[i]) {
+            if (a[i] === "skabe"[i]) {
                 document.getElementById("boks" + (i + 1)).style.backgroundColor = "green"
-            } else if ("slået".includes(a[i])) {
+            } else if ("skabe".includes(a[i])) {
                 document.getElementById("boks" + (i + 1)).style.backgroundColor = "yellow"
             } else {
                 document.getElementById("boks" + (i + 1)).style.backgroundColor = "red"
